@@ -1,0 +1,40 @@
+@charset "utf-8";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;list-style:none;border:none;}
+body{font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;color:#666;margin:0px;padding:0px;}
+img{border:none;vertical-align:middle}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none;cursor: pointer;}
+textarea{resize:none;}
+
+.lf   {float:left;}
+.rt  {float:right;}
+.clear  {clear:both;}
+.tp img,.tq img{width:100%;display:block;}
+.tp{position:relative;overflow: hidden;}
+.tq{position: fixed; z-index: 999;bottom:0px;}
+.tg{position: absolute;}
+/*右侧悬浮*/
+.rightbar_box{ position: fixed; top:9%; right:10px; z-index:99999;background:url(../images/rightbar-top.png) no-repeat center top; width:132px;}
+.rightbar{  font-size: 14px;font-family: "microsoft yahei";}
+.rightbar a{ background-image:url(../images/rightbar-btn.png); background-position: 0 0; width:132px; height:35px; line-height:31px; display: block; 
+	text-align: center; margin-top:3px; text-decoration:none; color: #df5838; font-size:16px;}
+.rightbar a:hover{background-position: 0 -39px; color: #fff; cursor: pointer;}
+#roll_top{ background-image:url(../images/to-top.png) ; background-position:0 0; width:132px; height:28px; display: block;text-align: center; 
+	padding-top:25px;cursor: pointer; color:#FFF;}
+
+
+/*左侧悬浮*/
+#leftbar{ background:url(../images/rightbar-btn-top.png) no-repeat 0 0; width:128px; position:fixed; top:50%; margin-top:-153px; left:0;font-size:12px;font-family:"微软雅黑"; height:307px; z-index:999;}
+#left-form{ width:90px; margin:110px auto 0;}
+#left-form p{color:#0e3255;text-align:center; margin:5px 0;}
+#left-form .tel{ width:88px; height:20px; border:#b0afaf solid 1px; border-radius:5px;margin-bottom:10px; outline:none; }
+#left-form .left-btn{ color:#fff; width:90px; height:22px; border:none; border-radius:5px; display:block; background:#0e3255; line-height:22px; text-align:center; margin-bottom:8px; cursor:pointer;}
+#left-form .left-btn b{ color:#df5838;}
+#close{ background:url(../images/close.png) no-repeat 0 0; width:11px;height:9px; display:block; position:absolute; top:7px; right:23px; cursor:pointer;}
+.left-icon{ width:40px; height:40px; position:fixed; top:50%; margin-top:-20px;left:0;z-index:9999;display:none;}
+.left-icon img{cursor:pointer;}
+
+
+.leftbar_new{ position: fixed; top:9%; left:0px; z-index:99999; width:154px; background:url(../images/rightbar-btn-top.png) no-repeat center top; padding-top:78px;}
+.leftbar_new a{ background-image:url(../images/rightbar-btn2.png); background-position: 0 0; width:132px; height:35px; line-height:31px; display: block; text-align: center; margin-top:3px; text-decoration:none; color: #2d90ea; font-size:16px; margin-left:6px;}
+.leftbar_new a:hover{background-position: 0 -39px; color: #fff; cursor: pointer;}
